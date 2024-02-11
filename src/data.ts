@@ -1,0 +1,1 @@
+export const titles = ["To Do", "In Progress", "Code Review", "Done"];

@@ -1,0 +1,27 @@
+.container {
+    @apply fixed top-0 left-0 z-10 flex items-center justify-center h-full w-full backdrop-blur-sm
+}
+
+.modal {
+    @apply border border-stone-300 rounded-lg p-3 bg-stone-50/90
+}
+
+.closeIcon {
+    @apply flex justify-end mb-2
+}
+
+.form {
+    @apply flex flex-col items-center m-10
+}
+
+.input {
+    @apply border border-stone-100 rounded-md hover:border-stone-300 focus:outline-none focus:border-stone-300 p-2 mb-2
+}
+
+.submitButton {
+    @apply border border-transparent bg-emerald-600 rounded-md px-4 py-2 text-white hover:bg-emerald-700 w-fit mt-2
+}
+
+.error {
+    @apply font-medium text-2xl p-4 pt-16 text-center
+}

@@ -1,0 +1,11 @@
+.dashboard {
+    @apply grid w-full h-screen grid-cols-1 items-start sm:grid-cols-2 xl:grid-cols-4 gap-3 p-3 pt-12 bg-[url(../../images/background.jpg)]
+}
+
+.addButton {
+    @apply absolute top-3 right-3 border border-transparent bg-emerald-600 rounded-md px-2 text-white hover:bg-emerald-700
+}
+
+.loading, .error {
+    @apply fixed left-1/2 font-medium text-2xl p-4 pt-16 text-center
+}

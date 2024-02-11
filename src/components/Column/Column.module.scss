@@ -1,0 +1,15 @@
+.column {
+    @apply border rounded-md px-8 pt-2 pb-8 bg-stone-50/25
+}
+
+.header {
+    @apply flex flex-col
+}
+
+.title {
+    @apply uppercase font-medium text-stone-500
+}
+
+.orderButton {
+    @apply text-end font-light text-stone-500 text-xs
+}
